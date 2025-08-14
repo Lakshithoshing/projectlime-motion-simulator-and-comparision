@@ -1,0 +1,7 @@
+#requirements.txt
+
+Download Matplotlib
+
+Run this command in cmd
+pip install -r requirements.txt
+
