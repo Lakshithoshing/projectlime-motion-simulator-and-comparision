@@ -1,11 +1,11 @@
 import math
 import matplotlib
 import matplotlib.pyplot
-u1 = int(input("enter magnitude of velocity in m/sec"))
-u2 = int(input("enter magnitude of velocity in m/sec"))
-angle1 = int(input("enter angle for projectile in degrees"))
+u1 = float(input("enter magnitude of velocity in m/sec for first projectile"))
+u2 = float(input("enter magnitude of velocity in m/sec for second projectile"))
+angle1 = float(input("enter angle for projectile in degrees for first projectile"))
 
-angle2 = int(input("enter angle for projectile in degrees"))
+angle2 = float(input("enter angle for projectile in degrees for second projectile"))
 g =10
 dt =0.0001
 radians1=math.radians(angle1)
